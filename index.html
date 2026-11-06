@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Layla Fazlić Omerović · Designer &amp; Illustrator</title>
+  <meta name="description" content="Senior graphic designer and illustrator: packaging and labels, illustration and consumer products, Amazon and e-commerce design.">
+  <link rel="icon" href="assets/favicon.svg">
+
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme inline {
+      --color-paper: var(--paper); --color-paper-2: var(--paper-2); --color-ink: var(--ink);
+      --color-muted: var(--muted); --color-line: var(--line); --color-accent: var(--accent);
+      --font-display: "Fraunces", Georgia, serif; --font-sans: "Archivo", system-ui, sans-serif; --font-mono: "JetBrains Mono", ui-monospace, monospace;
+    }
+  </style>
+  <script src="assets/site.js" defer></script>
+</head>
+<!-- Hub page. Send people the niche link directly (/packaging, /illustration, /amazon).
+     This page is for anyone who lands on the bare domain. -->
+<body data-niche="hub" class="flex min-h-screen flex-col bg-paper text-ink antialiased">
+<main class="mx-auto w-full max-w-7xl flex-1 px-5 py-16 md:px-10 md:py-24">
+  <p class="eyebrow" data-reveal><span class="dot"></span>Senior graphic designer &amp; illustrator · Sarajevo</p>
+  <h1 class="mt-7 max-w-4xl font-display text-5xl font-light leading-[1.02] tracking-tight md:text-7xl" data-reveal>
+    Layla Fazlić Omerović
+  </h1>
+  <p class="mt-6 max-w-2xl text-lg text-muted" data-reveal>Twenty years of design, three specialties. Pick the one that brought you here.</p>
+
+  <div class="mt-16 grid gap-6 md:grid-cols-3">
+    <a href="packaging/index.html" data-niche="packaging" class="group block" data-reveal>
+      <div class="media aspect-[4/5]" data-label="images/kids-garden/cover.jpg"><img src="images/kids-garden/cover.jpg" alt=""></div>
+      <div class="mt-5 flex items-baseline justify-between"><h2 class="font-display text-3xl">Packaging &amp; labels</h2><span class="text-accent transition group-hover:translate-x-1">→</span></div>
+      <p class="mt-1 text-muted">CPG packaging, label systems and brand identity.</p>
+    </a>
+    <a href="illustration/index.html" data-niche="illustration" class="group block" data-reveal>
+      <div class="media aspect-[4/5]" data-label="images/illustration-hero.jpg"><img src="images/illustration-hero.jpg" alt=""></div>
+      <div class="mt-5 flex items-baseline justify-between"><h2 class="font-display text-3xl">Illustration &amp; products</h2><span class="text-accent transition group-hover:translate-x-1">→</span></div>
+      <p class="mt-1 text-muted">Illustration, style guides and consumer products.</p>
+    </a>
+    <a href="amazon/index.html" data-niche="amazon" class="group block" data-reveal>
+      <div class="media aspect-[4/5]" data-label="images/amazon/main.jpg"><img src="images/amazon/main.jpg" alt=""></div>
+      <div class="mt-5 flex items-baseline justify-between"><h2 class="font-display text-3xl">Amazon &amp; e-commerce</h2><span class="text-accent transition group-hover:translate-x-1">→</span></div>
+      <p class="mt-1 text-muted">Listing images, A+ content and marketplace products.</p>
+    </a>
+  </div>
+</main>
+<footer class="mx-auto w-full max-w-7xl px-5 py-8 text-sm text-muted md:px-10">© <span data-year></span> Layla Fazlić Omerović</footer>
+</body>
+</html>
